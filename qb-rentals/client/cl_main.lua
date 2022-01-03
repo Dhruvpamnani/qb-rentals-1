@@ -47,7 +47,7 @@ RegisterNetEvent('qb-rentals:Client:OpenMenu', function()
             args = {k}
         }
     end
-    TriggerEvent('nh-context:createMenu', menu)
+    TriggerEvent('qb-menu:client:openMenu', menu)
 end)
 
 RegisterNetEvent('qb-rentals:Client:RentVehicle', function(model)
